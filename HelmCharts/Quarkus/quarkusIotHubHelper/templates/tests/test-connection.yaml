@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "quarkus-iot-hub-helper.fullname" . }}-test-connection"
+  labels:
+    {{- include "quarkus-iot-hub-helper.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "quarkus-iot-hub-helper.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never

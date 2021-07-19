@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "quarkus-iot-hub-helper.fullname" . }}
+  labels:
+    {{- include "quarkus-iot-hub-helper.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "quarkus-iot-hub-helper.selectorLabels" . | nindent 4 }}

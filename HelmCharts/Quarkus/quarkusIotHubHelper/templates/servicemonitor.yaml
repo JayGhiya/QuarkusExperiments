@@ -1,0 +1,19 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: quarkus
+  labels:
+    release: prometheus-stack
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/instance: quarkus-iot-hub-helper
+  namespaceSelector:
+    matchNames:
+      - monitoring   
+  endpoints:
+    - port: http
+      interval: "10s"
+      path: /q/metrics
+  targetLabels:
+    - app.kubernetes.io/instance

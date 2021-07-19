@@ -1,0 +1,3 @@
+[EXECUTABLE]
+Quarkus-Iot-Hub-helper-1.0-SNAPSHOT-runner
+
