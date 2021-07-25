@@ -48,7 +48,7 @@ public class QuarkusKafkaStreamsMapper implements KeyValueMapper<String,String, 
             Observation bloodPressure = (Observation)iParser.parseResource(s2);
             LOG.infof("bloodpressure is %s",bloodPressure.getStatus().getDisplay());
 
-            jsonBloodPressure.set(iParser.encodeResourceToString(bloodPressure));
+                jsonBloodPressure.set(iParser.encodeResourceToString(bloodPressure));
         });
         this.egressCounter.increment();
         return new KeyValue<>(s,jsonBloodPressure.get());

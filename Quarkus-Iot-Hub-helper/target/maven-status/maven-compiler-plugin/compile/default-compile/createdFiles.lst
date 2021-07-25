@@ -1,7 +1,0 @@
-org/quarkus/experiment/iot/kafka/QuarkusKafkaReactiveConsumer.class
-org/quarkus/experiment/iot/message/builder/impl/IotHubMessageBuilder.class
-org/quarkus/experiment/iot/client/infc/QuarkusServiceClientInterface.class
-org/quarkus/experiment/iot/client/impl/QuarkusServiceClient.class
-org/quarkus/experiment/iot/configuration/IotHubConfiguration.class
-org/quarkus/experiment/iot/main/main/NotificationIOTHubMain.class
-org/quarkus/experiment/iot/message/builder/infc/IotHubMessageBuilderInterface.class

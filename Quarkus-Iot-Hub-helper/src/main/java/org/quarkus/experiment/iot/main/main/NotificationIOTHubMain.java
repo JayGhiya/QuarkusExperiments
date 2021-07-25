@@ -10,7 +10,6 @@ public class NotificationIOTHubMain {
 
     private static final Logger LOG = Logger.getLogger(NotificationIOTHubMain.class);
 
-
     public static void main(String ... args) {
         LOG.info("Running main method");
         Quarkus.run(args);

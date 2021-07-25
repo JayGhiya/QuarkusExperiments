@@ -1,7 +1,0 @@
-/home/bumblebee/Downloads/Quarkus-Iot-Hub-helper/src/main/java/org/quarkus/experiment/iot/message/builder/infc/IotHubMessageBuilderInterface.java
-/home/bumblebee/Downloads/Quarkus-Iot-Hub-helper/src/main/java/org/quarkus/experiment/iot/message/builder/impl/IotHubMessageBuilder.java
-/home/bumblebee/Downloads/Quarkus-Iot-Hub-helper/src/main/java/org/quarkus/experiment/iot/configuration/IotHubConfiguration.java
-/home/bumblebee/Downloads/Quarkus-Iot-Hub-helper/src/main/java/org/quarkus/experiment/iot/client/impl/QuarkusServiceClient.java
-/home/bumblebee/Downloads/Quarkus-Iot-Hub-helper/src/main/java/org/quarkus/experiment/iot/client/infc/QuarkusServiceClientInterface.java
-/home/bumblebee/Downloads/Quarkus-Iot-Hub-helper/src/main/java/org/quarkus/experiment/iot/kafka/QuarkusKafkaReactiveConsumer.java
-/home/bumblebee/Downloads/Quarkus-Iot-Hub-helper/src/main/java/org/quarkus/experiment/iot/main/main/NotificationIOTHubMain.java
