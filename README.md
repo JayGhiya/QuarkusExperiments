@@ -1,8 +1,10 @@
 # QuarkusExperiments
 This repository will contain experiments related to quarkus and Mandrel Vm.
+# Kafka-Producer-Quarkus
+This project uses mutiny to produce messages for kafka at fixed interval.
+References: https://smallrye.io/smallrye-mutiny/
 
-
-# KafkaProducerQuarkus
+# getting-started-reactive
 This project uses resteasy reactive to accept post requests and that message is used
 by emitter to be put on kafka queue.
 
